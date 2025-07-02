@@ -3,6 +3,13 @@
   "compileOnSave": false,
   "compilerOptions": {
     "baseUrl": "./",
+    "paths": {
+      "@env/*": ["src/environments/*"],
+      "@assets/*": ["src/assets/*"],
+      "@core/*": ["src/app/@core/*"],
+      "@pages/*": ["src/app/@pages/*"],  
+      "@theme/*": ["src/theme/*"],  
+    },
     "outDir": "./dist/out-tsc",
     "forceConsistentCasingInFileNames": true,
     "esModuleInterop": true,
